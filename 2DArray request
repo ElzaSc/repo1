@@ -12,3 +12,7 @@ public int My2DArray(int[][] accounts)
  }
  return soFar;
 }
+public void Main(string[] args)
+{
+Console.WriteLine();
+}
