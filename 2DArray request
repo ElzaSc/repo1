@@ -1,0 +1,14 @@
+public int My2DArray(int[][] accounts)
+{
+ int soFar = 0;
+ foreach(int[] customer in accounts)
+ {
+  currentWealthCustomer = 0;
+  foreach(int bank in customer)
+  {
+    currentWealthCustomer = currentWealthCustomer + bank;
+  }
+  soFar = Mathf.Max(soFar, currentWealthCustomer);
+ }
+ return soFar;
+}
