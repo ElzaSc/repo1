@@ -1,0 +1,7 @@
+public int[] MyNewCode(int[] accounts)
+{
+ for(int i = 1; i < accounts.Length; i++){
+ accounts[i] = accounts[i - 1] + accounts[i];
+ }
+return accounts;
+}
